@@ -1,8 +1,4 @@
-# Problem Set 1
-# Name: Emma Nelson
-
-# Problem 1
-# List the 1000th prime number
+# This function lists the 1000th prime number
 
 import time
 
@@ -20,8 +16,6 @@ while nth_prime < 1000:
                     break
         if is_prime == 1:
             nth_prime = nth_prime + 1;
-##            print(nth_prime)
-##            print(prime_candidate)
         else:
             pass
     else:
@@ -34,6 +28,8 @@ from math import *
 prime_log_sum = log(2)
 prime_candidate = 2
 nth_prime = 1
+## This Script Verifies that the product of prime numbers 2 through the nth prime number is less than e^n
+
 while nth_prime < 1000:
     if prime_candidate > 2:
         is_prime = 1
@@ -47,13 +43,11 @@ while nth_prime < 1000:
         if is_prime == 1:
             nth_prime = nth_prime + 1;
             prime_log_sum = prime_log_sum + log(prime_candidate)
-
-            print(prime_log_sum/prime_candidate)
+            print(prime_log_sum/prime_candidate) # this value will be less than 1
         else:
             pass
     else:
         pass
     prime_candidate = prime_candidate + 1
 
-# Problem 2
 
