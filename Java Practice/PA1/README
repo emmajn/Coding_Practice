@@ -1,0 +1,82 @@
+Name: Emma Nelson
+USC NetId: emmanels
+CSCI 455 PA1
+Fall 2021
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+EJN
+Emma Jade Nelson
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+I used examples from the chapters in the textbook regarding graphics and colors.
+I used examples from the textbook on type casting double to int and vise versa. 
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+None so far. 
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+None
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+In CS 455 what code from the web are you allowed to use in your assignment solution, assuming you modify that code once you get it? (No clue? Hint: Reread the syllabus.) Note: no need to mention the "starter files" for the assignment in your answer.
+
+"The outside code resources students will be
+allowed to use in assignments for this class are limited to code written by the course staff
+for the purposes of helping students in the course, or code from the textbook for this
+course."
+
+What is the probability of each of the three outcomes in a trial: two heads, one head and one tail, and two tails? Why is one of them different than the other two?
+
+Two head, 
+both tosses have to be heads. There is 50% probability to get a head in a single toss. The outcome of one toss doesn't affect the other so it is. 50%*50% = 25%
+
+Two Tails, 
+Similar to the two heads case. Both tosses have to be tails. There is 50% probability to get a tail in a single toss. the outcome of one toss doesn't affect the other so it is. 50%*50% = 25%
+
+One Head one Tail, 
+On the first toss it can be either heads or tails. The first toss has 100% probability of being heads or tails. The second toss has to be the opposite of the first toss. It has a 50% chance of being the opposite. So the probability is 100%*50% = 50%. 
+
+
+Roughly how many trials do you need to do before you mostly get results within 1% of these probabilities? Do several simulations using your program to determine an answer to this.
+Assuming 
+Expected Value is 
+E(X) = np
+Vairance is
+Var(X)=np(1-p) = E((X-mean)^2)
+where n is number of trials and p is probability
+
+We want on percent so Variance should be ((p-0.01)*n-np)^2
+0.01^2*n^2 = np(1-p)
+n = p(1-p)/(0.01^2)
+
+Assuming p = 0.5 for the head tail toss
+About 2500 coin tosses
+
+Roughly how many trials can you do before it crashes with an overflow error? State the largest value you tried where it still worked correctly, and one where it overflowed. You can get an idea of what general values to try by looking at the limits on Java integers (see Section 4.1.1 of the text). Play around with your program to verify that it actually works for very large values that are within the limits. Note: this kind of testing can sometimes turn up bugs, so it's good to do. Warning: For very large values you may have to wait a fair amount of time before you get the results.
+
+Java's max value for int type: 2,147,483,647

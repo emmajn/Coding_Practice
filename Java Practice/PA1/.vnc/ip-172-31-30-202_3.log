@@ -1,0 +1,109 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Tue Sep 14 20:28:59 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[4314]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[4315]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:4273): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:4273): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/data2/students/sub1/ddd_v1_w_MKPW_660291/asn500272_4/asn500273_1/work/.cache/sessions/xfce4-session-ip-172-31-30-202:3, Does it exist? Permissions issue?
+
+(xfwm4:4317): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Tue Sep 14 20:29:07 2021
+ Connections: accepted: 172.31.30.202::48772
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Sep 14 20:29:17 2021
+ Connections: closed: 172.31.30.202::48772 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 20
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 81 rects, 767.144 kpixels
+ EncodeManager:            1.26562 KiB (1:2368.48 ratio)
+ EncodeManager:     Bitmap RLE: 19 rects, 3.04 kpixels
+ EncodeManager:                 609 B (1:20.3415 ratio)
+ EncodeManager:     Indexed RLE: 12 rects, 44.734 kpixels
+ EncodeManager:                  4.64062 KiB (1:37.6852 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 48 rects, 248.784 kpixels
+ EncodeManager:                  88.6357 KiB (1:10.9705 ratio)
+ EncodeManager:   Total: 160 rects, 1.0637 Mpixels
+ EncodeManager:          95.1367 KiB (1:43.6946 ratio)
+ ComparingUpdateTracker: 1.57829 Mpixels in / 281.984 kpixels out
+ ComparingUpdateTracker: (1:5.59708 ratio)
+
+Tue Sep 14 20:29:38 2021
+ Connections: accepted: 172.31.30.202::48848
+
+Tue Sep 14 20:29:39 2021
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Tue Sep 14 20:30:30 2021
+ Connections: closed: 172.31.30.202::48848 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 410
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 2 rects, 266.936 kpixels
+ EncodeManager:             32 B (1:33367.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 414 rects, 2.77505 Mpixels
+ EncodeManager:            6.46875 KiB (1:1676.5 ratio)
+ EncodeManager:     Bitmap RLE: 76 rects, 21.966 kpixels
+ EncodeManager:                 2.40625 KiB (1:36.0292 ratio)
+ EncodeManager:     Indexed RLE: 599 rects, 348.934 kpixels
+ EncodeManager:                  71.4463 KiB (1:19.1758 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 214 rects, 1.30857 Mpixels
+ EncodeManager:                  494.042 KiB (1:10.3515 ratio)
+ EncodeManager:   Total: 1.305 krects, 4.72145 Mpixels
+ EncodeManager:          574.395 KiB (1:32.1355 ratio)
+ ComparingUpdateTracker: 63.9545 Mpixels in / 2.80246 Mpixels out
+ ComparingUpdateTracker: (1:22.8209 ratio)
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+gpg-agent[4315]: SIGTERM received - shutting down ...
+gpg-agent[4315]: gpg-agent (GnuPG) 2.1.11 stopped

@@ -1,0 +1,11 @@
+java CoinSimViewer
+java CoinSimViewer
+java CoinTossSimulator
+java CoinTossSimulatorTester
+javac @CoinSimViewer.list
+java CoinSimViewer
+java CoinSimViewer
+java CoinSimViewer
+java CoinSimViewer
+java CoinSimViewer
+java CoinSimViewer

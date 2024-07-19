@@ -1,0 +1,167 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Mon Sep 13 17:11:31 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[19938]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[19938]: directory '/mnt/data2/students/sub1/ddd_v1_w_MKPW_660291/asn500272_4/asn500273_1/work/.gnupg' created
+gpg-agent[19938]: directory '/mnt/data2/students/sub1/ddd_v1_w_MKPW_660291/asn500272_4/asn500273_1/work/.gnupg/private-keys-v1.d' created
+gpg-agent[19947]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:19853): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:19853): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/data2/students/sub1/ddd_v1_w_MKPW_660291/asn500272_4/asn500273_1/work/.cache/sessions/xfce4-session-ip-172-31-17-15:3, Does it exist? Permissions issue?
+
+(xfwm4:19960): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Mon Sep 13 17:11:39 2021
+ Connections: accepted: 172.31.17.15::56444
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Sep 13 17:17:22 2021
+ Connections: closed: 172.31.17.15::56444 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 5450
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 9 rects, 196.048 kpixels
+ EncodeManager:             144 B (1:5446.53 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 5.825 krects, 15.76 Mpixels
+ EncodeManager:            91.0156 KiB (1:677.147 ratio)
+ EncodeManager:     Bitmap RLE: 2.485 krects, 446.3 kpixels
+ EncodeManager:                 73.4961 KiB (1:24.1167 ratio)
+ EncodeManager:     Indexed RLE: 7.908 krects, 4.01618 Mpixels
+ EncodeManager:                  877.725 KiB (1:17.9793 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 2.307 krects, 16.4775 Mpixels
+ EncodeManager:                  6.47766 MiB (1:9.7077 ratio)
+ EncodeManager:   Total: 18.534 krects, 36.8961 Mpixels
+ EncodeManager:          7.49561 MiB (1:18.8056 ratio)
+ ComparingUpdateTracker: 594.519 Mpixels in / 43.6269 Mpixels out
+ ComparingUpdateTracker: (1:13.6273 ratio)
+gpg-agent[19947]: can't connect my own socket: IPC connect call failed
+gpg-agent[19947]: this process is useless - shutting down
+gpg-agent[19947]: gpg-agent (GnuPG) 2.1.11 stopped
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfce4-terminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+
+(emacs24:1821): GConf-WARNING **: Got Disconnected from DBus.
+
+Connection lost to X server `:3.0'
+When compiled with GTK, Emacs cannot recover from X disconnects.
+This is a GTK bug: https://bugzilla.gnome.org/show_bug.cgi?id=85715
+For details, see etc/PROBLEMS.
+Connection lost to X server `:3.0'
+When compiled with GTK, Emacs cannot recover from X disconnects.
+This is a GTK bug: https://bugzilla.gnome.org/show_bug.cgi?id=85715
+For details, see etc/PROBLEMS.
+
+(emacs24:1821): GLib-WARNING **: g_main_context_prepare() called recursively from within a source's check() or prepare() member.
+
+(emacs24:1821): GLib-WARNING **: g_main_context_check() called recursively from within a source's check() or prepare() member.
+
+Backtrace:
+/usr/bin/emacs24[0x5036d3]
+/usr/bin/emacs24[0x4e9d6e]
+/usr/bin/emacs24[0x503713]
+/usr/bin/emacs24[0x4bd9ef]
+/usr/bin/emacs24[0x4bdaad]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XIOError+0x4e)[0x7fefdd35ad8e]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x7d)[0x7fefdd35861d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XPending+0x57)[0x7fefdd349fd7]
+/usr/lib/x86_64-linux-gnu/libgdk-3.so.0(+0x5ae9e)[0x7fefdeb3fe9e]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_prepare+0x15d)[0x7fefddac091d]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x4a2bb)[0x7fefddac12bb]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_pending+0x27)[0x7fefddac1447]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_events_pending+0xd)[0x7fefdefd140d]
+/usr/bin/emacs24[0x4bdb1b]
+/usr/bin/emacs24[0x4f0fa1]
+/usr/bin/emacs24[0x4f0945]
+/usr/bin/emacs24[0x54333a]
+/usr/bin/emacs24[0x563221]
+/usr/bin/emacs24[0x563840]
+/usr/bin/emacs24[0x4ef436]
+/usr/bin/emacs24[0x4ef981]
+/usr/bin/emacs24[0x4f10b8]
+/usr/bin/emacs24[0x4f42c8]
+/usr/bin/emacs24[0x59d10c]
+/usr/bin/emacs24[0x4f18c1]
+/usr/bin/emacs24[0x4f539f]
+/usr/bin/emacs24[0x4f63ed]
+/usr/bin/emacs24[0x4f8150]
+/usr/bin/emacs24[0x55bba7]
+/usr/bin/emacs24[0x4ea13e]
+/usr/bin/emacs24[0x55ba8b]
+/usr/bin/emacs24[0x4ee817]
+/usr/bin/emacs24[0x4eeb58]
+/usr/bin/emacs24[0x418619]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7fefd9b22830]
+/usr/bin/emacs24[0x419149]
+
+Backtrace:
+/usr/bin/emacs24[0x5036d3]
+/usr/bin/emacs24[0x4e9d6e]
+/usr/bin/emacs24[0x503713]
+/usr/bin/emacs24[0x4bd9ef]
+/usr/bin/emacs24[0x4bdaad]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XIOError+0x4e)[0x7f9f449f2d8e]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x7d)[0x7f9f449f061d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XPending+0x57)[0x7f9f449e1fd7]
+/usr/lib/x86_64-linux-gnu/libgdk-3.so.0(+0x5ae9e)[0x7f9f461d7e9e]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_prepare+0x15d)[0x7f9f4515891d]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x4a2bb)[0x7f9f451592bb]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_pending+0x27)[0x7f9f45159447]
+/usr/bin/emacs24[0x5d59b8]
+/usr/bin/emacs24[0x59d03a]
+/usr/bin/emacs24[0x4f18c1]
+/usr/bin/emacs24[0x4f539f]
+/usr/bin/emacs24[0x4f63ed]
+/usr/bin/emacs24[0x4f8150]
+/usr/bin/emacs24[0x55bba7]
+/usr/bin/emacs24[0x4ea13e]
+/usr/bin/emacs24[0x55ba8b]
+/usr/bin/emacs24[0x4ee817]
+/usr/bin/emacs24[0x4eeb58]
+/usr/bin/emacs24[0x418619]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f9f411ba830]
+/usr/bin/emacs24[0x419149]

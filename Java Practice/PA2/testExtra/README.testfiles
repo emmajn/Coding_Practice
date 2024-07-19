@@ -1,0 +1,11 @@
+The files in this directory contain the test cases and corresponding reference output for extra credit part of this assignment.
+
+You can run any of these tests yourself similar to the example shown below for one of them:
+
+    java -ea BookshelfKeeperProg < $ASNLIB/public/extra1 > myout1.out
+
+You can then look at the difference between your extra1.out or run diff to compare them:
+
+    diff $ASNLIB/public/extra1.out myout1.out
+
+Make sure your output is exactly the same as the expected output.

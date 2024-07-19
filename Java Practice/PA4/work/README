@@ -1,0 +1,112 @@
+Name: Emma Nelson
+USC NetID: emmanels
+CS 455 PA4
+Fall 2021
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Emma Nelson
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+For catching the exceptions in word finder, I used a modified version of DataSetReader from Lab 8
+
+For the comparator I looked back to lab 9 for the comparator exercise with the condor to sort by value.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+Not that I know uf
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+WordFinder:
+This is the main program that takes input form the suer. The user can run the program with a selected dictionary and play. The program checks if the dictionary file exists and is valid. It then constructs an anagram dictionary with the AnagramDictionary class. After creating the dictionary, it prompts the user to put in letters for the Rack. Before creating the rack, it filters out only valid letters. No non alphabet, and the case must be the same as the input dictionary. After filtering the user input, the valid letters are then used to create a Rack. The Rack method is used to find all the possible unique subsets of Rack. Then the unique subsets are used as keys to loop up possible legal wards in the Anagram dictionary. The program saves the found words for that round in the wordsFound dictionary where the key is the word and the value is the points. Then the program prints out the words found dictionary by decreasing order of value. The values are sorted with a comparator called ScoreCompare.
+The WordFinder has the following helper functions
+- openAndProcessDictionary:
+     * This method opens the dictionary file and creates and anagram dictionary from the file
+     * If no dictionary is specified, it goes to default sowpods.txt dictionary
+     * This throw exceptions for two scenarios
+     *  1.) The dictionary file cannot be found
+     *  2.) The dictionary file is not valid do to duplicate words
+- processInput
+     * This method processes the user input before creating a rack with it.
+     * This method filters out non alphabet characters.
+     * if the dictionary is lower case words: This filters out upper case wards
+     * If the dictionary is upper case words: this filters out lower case words
+- findPossibleWords
+     * This function finds all the possible legal words in a rack and puts them in wordsFound, a TreeMap<String,Integer>: the key is the word and the value is the point value of that word
+     * it clears wordsFound before adding to the dictionary as to not keep words from a previous round.
+- printRackWords
+     * Prints the wordsFound from a rack by order of most points to least
+
+Rack: Rack saves the information of the valid letters the user puts in as a representative scrabble rack.
+It has the following properties
+ArrayList<String> allSubsetsOfWords: an array list of all the unique subset of letters from the rackletters
+TreeMap<String,Integer> letterMltiplicityDict: a map where the key is the letter and the value is the frequency of the letter
+ String rackLetters: the filtered valid letters that the user inputs
+When a rack is constructed, it saves the string as rackLetters, creates a map of letters and their frequency, and then calculates all the subsets from the input string.
+The Rack has the following methods
+- createLetterMltiplicityDict
+    * Creates a dictionary of with unique letters as keys and frequency of those letters as values. this is so that the information can then be used to find all the subsets with Prof Bono's allSubsets method
+- getUniqueLetters
+    * gets unique letters in a rack, by getting the keys of the letterMltiplicityDict map
+- getFrequency
+    * Gets the frequency of the unique letters in a rack, by getting the values of the letterMltiplicityDict map
+- rackDicttoString
+    * for debugging and seeing if the maping has the correct frequency of each value
+- toString
+    * returns the string of the letters in the scrabble rack
+- allSubsets
+    * finds all unique subsets of the scrabble rack
+
+ScoreTable: This class keeps information on the score of each letter in an array.
+This class has the following properties
+- int[] scoreTabs = new int[26]: an array that stores the value of each letter. the letters are indexes. (ie a = 0, b = 1,....z = 25)
+Strings that contain all letters that have the same score value
+    - String onePointers = "AEIOULNSTR":
+    - String twoPointers = "DG":
+    - String threePointers = "BCMP":
+    - String fourPointers = "FHVWY":
+    - String fivePointers = "K":
+    - String eightPointers = "JX":
+    - String tenPointers = "QZ":
+When a ScoreTable is constructed, it populates scoreTabs with the proper score value of each letter
+This class has the following methods
+- toString:
+    * returns scoreTabs to see what each letter is worth.
+- populatePointValues
+     * Populates the scoreTabs with the point value for a given letter
+- getScore
+    * Calculates the score of a specific string by looping through the string and looking up the value of each string and summing them.
+
+ScoreCompare
+This class assumes we are working with the wordFounds dictionary. It sorts an map of words and their values by descending order.
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+

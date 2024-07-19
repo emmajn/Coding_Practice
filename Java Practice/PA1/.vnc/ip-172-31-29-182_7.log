@@ -1,0 +1,83 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Tue Sep 14 20:15:20 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5907
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :7
+gpg-agent[15650]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[15652]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:15621): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:15621): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/data2/students/sub1/ddd_v1_w_MKPW_660291/asn500272_4/asn500273_1/work/.cache/sessions/xfce4-session-ip-172-31-29-182:7, Does it exist? Permissions issue?
+
+(xfwm4:15654): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Tue Sep 14 20:16:22 2021
+ Connections: accepted: 172.31.29.182::59104
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Sep 14 20:18:30 2021
+ Connections: closed: 172.31.29.182::59104 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 395
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 2 rects, 372.344 kpixels
+ EncodeManager:             32 B (1:46543.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 504 rects, 3.06314 Mpixels
+ EncodeManager:            7.875 KiB (1:1520.17 ratio)
+ EncodeManager:     Bitmap RLE: 138 rects, 27.449 kpixels
+ EncodeManager:                 4.11816 KiB (1:26.4292 ratio)
+ EncodeManager:     Indexed RLE: 456 rects, 286.867 kpixels
+ EncodeManager:                  50.6494 KiB (1:22.2296 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 165 rects, 996.858 kpixels
+ EncodeManager:                  378.156 KiB (1:10.3024 ratio)
+ EncodeManager:   Total: 1.265 krects, 4.74666 Mpixels
+ EncodeManager:          440.83 KiB (1:42.0944 ratio)
+ ComparingUpdateTracker: 102.843 Mpixels in / 2.71706 Mpixels out
+ ComparingUpdateTracker: (1:37.8509 ratio)
+gpg-agent[15652]: can't connect my own socket: IPC connect call failed
+gpg-agent[15652]: this process is useless - shutting down
+gpg-agent[15652]: gpg-agent (GnuPG) 2.1.11 stopped
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :7.0.
